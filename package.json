@@ -1,0 +1,27 @@
+{
+  "name": "magisk-module-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node src/index.ts",
+    "dev": "nodemon --exec sucrase-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/archiver": "^5.1.1",
+    "@types/decompress": "^4.2.4",
+    "@types/node": "^16.7.5",
+    "@types/rimraf": "^3.0.2",
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "decompress": "^4.2.1",
+    "nodejs-file-downloader": "^4.7.2",
+    "rimraf": "^3.0.2"
+  }
+}
